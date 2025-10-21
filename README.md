@@ -10,12 +10,12 @@ It connects to a **Google Sheet database** containing the certificate details (N
 ## 🏗️ Tech Stack
 
 ### **Frontend**
-- ⚛️ React.js
-- 🎨 Bootstrap + Custom CSS
+- React.js
+- Bootstrap + Custom CSS
 
 ### **Backend**
-- 🟩 Node.js + Express.js
-- 🔐 Google APIs (Sheets API)
+- Node.js + Express.js
+- Google APIs (Sheets API)
 
 ### **Database**
 - 📊 Google Sheets (acts as a small, simple database)
@@ -57,7 +57,7 @@ UKCS_Project/
 
 ---
 
-## 🧩 How It Works
+##  How It Works
 1. The **user** enters their **Name** and **Enrollment ID** on the homepage.  
 2. The **React frontend** sends a request to the backend (`http://localhost:5000/api/certificate/:EnrollmentID`).  
 3. The **Node.js server** fetches data from Google Sheets using the **Google Sheets API**.  
@@ -66,20 +66,21 @@ UKCS_Project/
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 - Download certificates directly as PDF or JPEG
 - Admin dashboard to upload new certificate data
 - Email verification and tracking
 - Cloud deployment (Google Cloud / Vercel / Render)
 ---
-
 ## 🧑‍💻 Author
 **1. Alina Paul**  
 🎓 Information Science and Engineering, CMRIT  
-📍 2027 Batch  
+📍 2027 Batch
+
 **2. Ankita Sivaramakrishnan**  
 🎓 Information Science and Engineering, CMRIT  
 📍 2027 Batch
+
 **3. Ami Krishna**  
 🎓 Information Science and Engineering, CMRIT  
 📍 2027 Batch  
