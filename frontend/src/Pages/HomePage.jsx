@@ -16,6 +16,7 @@ function HomePage() {
      const response = await fetch(
   `https://ukcs-project.onrender.com/api/certificate/${EnrollmentID}?name=${encodeURIComponent(Name)}`
 );
+// 
 
       const data = await response.json();
 
@@ -33,18 +34,6 @@ function HomePage() {
 
   return (
     <div className="homepage">
-      {/* <header className="topbar">
-        <div className="logo">
-          <h2>UKCS</h2>
-        </div>
-
-        <div className="profile-section">
-          <div className="profile-circle">
-            <span>PROFILE</span>
-          </div>
-          <p className="profile-name">NAME</p>
-        </div>
-      </header> */}
 
       <main className="center-box">
         <div className="content">
