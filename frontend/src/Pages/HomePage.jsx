@@ -14,7 +14,7 @@ function HomePage() {
 
     try {
      const response = await fetch(
-  `http://localhost:5000/api/certificate/${EnrollmentID}?name=${encodeURIComponent(Name)}`
+  `https://ukcs-project.onrender.com/api/certificate/${EnrollmentID}?name=${encodeURIComponent(Name)}`
 );
 
       const data = await response.json();
