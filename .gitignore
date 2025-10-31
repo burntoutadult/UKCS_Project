@@ -1,6 +1,6 @@
 # Node modules
 node_modules/
-#backend/credentials.json
+backend/credentials.json
 
 # Build folders
 frontend/build/
