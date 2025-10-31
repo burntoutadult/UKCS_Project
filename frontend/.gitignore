@@ -9,6 +9,7 @@
 /coverage
 
 # production
+backend/credentials.json
 /build
 
 # misc
