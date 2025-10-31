@@ -10,7 +10,7 @@
 
 # production
 backend/credentials.json
-/build
+
 
 # misc
 .DS_Store
@@ -22,3 +22,4 @@ backend/credentials.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
