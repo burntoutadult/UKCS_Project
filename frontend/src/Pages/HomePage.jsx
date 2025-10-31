@@ -14,7 +14,7 @@ function HomePage() {
 
     try {
      const response = await fetch(
-  `https://ukcs-project.onrender.com/api/certificate/${EnrollmentID}?name=${encodeURIComponent(Name)}`
+  `https://ukcs.netlify.app/api/certificate/${EnrollmentID}?name=${encodeURIComponent(Name)}`
 );
 // 
 
