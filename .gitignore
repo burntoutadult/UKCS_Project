@@ -1,6 +1,6 @@
 # Node modules
 node_modules/
-backend/credentials.json
+
 
 # Build folders
 frontend/build/
@@ -27,3 +27,5 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.swp
+
+backend/credentials.json
